@@ -1,4 +1,4 @@
-from database import db;
+from database.database import db;
 # TABLA DE ESTUDIANTE
 class EstudianteModel(db.Model):
     id = db.Column(db.Integer,primary_key=True);

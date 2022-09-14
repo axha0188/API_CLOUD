@@ -2,8 +2,8 @@ from flask import Flask,jsonify;
 from flask_cors import CORS;
 from flask_sqlalchemy import SQLAlchemy;
 from flask_marshmallow import Marshmallow;
-from routers import estudiante;
-
+from routers.routers import estudiante;
+from configs import CONEXION;
 
 # INSTANCIA DEL APP
 app = Flask(__name__);
@@ -13,7 +13,7 @@ CORS(app);
 
 # CONFIGURACION DE LA BASE DE DATOS MYSQL
 app = Flask(__name__);
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:@localhost/API_UNEMI";
+app.config["SQLALCHEMY_DATABASE_URI"] = CONEXION;
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False;
 db = SQLAlchemy(app);
 
