@@ -20,8 +20,6 @@ Api de cloud computing
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -37,8 +35,6 @@ Api de cloud computing
 
 <!-- ABOUT THE PROJECT -->
 ## ACERCA DEL PROYECTO
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 El proyecto es una API REST diseñada y construida con el microframework Flask, esta API es un simple CRUD (crear, leer, actualizar, eliminar), el tipo de base de datos que se emplea es mariabd/mysql.
 
