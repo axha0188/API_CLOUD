@@ -40,10 +40,7 @@ Api de cloud computing
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-El proyecto es una API REST diseñada y construida con el microframework, esta API es un simple CRUD (crear, leer, actualizar, eliminar), el tipo de base de datos
-que se emplea es mariabd/mysql.
-
-<p align="right">(<a href="#readme-top">Ir al inicio</a>)</p>
+El proyecto es una API REST diseñada y construida con el microframework Flask, esta API es un simple CRUD (crear, leer, actualizar, eliminar), el tipo de base de datos que se emplea es mariabd/mysql.
 
 
 <!-- GETTING STARTED -->
@@ -65,7 +62,7 @@ Este es un ejemplo de cómo listar las cosas que necesita para usar el software 
 _Para la instalacion del los requerimientos del proyectos seguimos los sisguientes pasos._
 
 1. Creamos un entorno virtual
-  ```sh
+   ```sh
    virtualenv myenvexample
    ```
 3. Activamos el entorno virtual
@@ -76,8 +73,6 @@ _Para la instalacion del los requerimientos del proyectos seguimos los sisguient
    ```sh
    pip install -r requirements.txt
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
