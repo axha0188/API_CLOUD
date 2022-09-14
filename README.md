@@ -27,52 +27,16 @@ Api de cloud computing
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Logo" width="80" height="80">
+    <img src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Logo" width="500" height="500">
   </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-  </p>
+  <h3 align="center">API CLOUD</h3>
 </div>
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">Acerca del proyecto</a>
-      <ul>
-        <li><a href="#built-with">Herramientas</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Como empezar</a>
-      <ul>
-        <li><a href="#prerequisites">Requerimientos</a></li>
-        <li><a href="#installation">Instalacion</a></li>
-      </ul>
-    </li>
-    <li><a href="#COMO INICIAR">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## ACERCA DEL PROYECTO
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -80,18 +44,6 @@ El proyecto es una API REST diseñada y construida con el microframework, esta A
 que se emplea es mariabd/mysql.
 
 <p align="right">(<a href="#readme-top">Ir al inicio</a>)</p>
-
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Flask][Flask]][Flask-url]
-
-
-<p align="right">(<a href="#readme-top">Ir al inicio</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -105,29 +57,27 @@ Para obtener una copia local en funcionamiento, siga estos sencillos pasos de ej
 Este es un ejemplo de cómo listar las cosas que necesita para usar el software y cómo instalarlas.
 * pip
   ```sh
-  pip install npm@latest -g
+  pip install virtualenv
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Para la instalacion del los requerimientos del proyectos seguimos los sisguientes pasos._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+1. Creamos un entorno virtual
+  ```sh
+   virtualenv myenvexample
    ```
-3. Install NPM packages
+3. Activamos el entorno virtual
    ```sh
-   npm install
+   .\myenvexample\Scripts\activate
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Instalamos las dependencias
+   ```sh
+   pip install -r requirements.txt
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -140,16 +90,5 @@ _Video 1 flask [Documentation](https://www.youtube.com/watch?v=RLbaB5nk-mM)_
 _Video 2 flask [Documentation](https://www.youtube.com/watch?v=MvVqjQqSdM4&t=1434s)_
 
 <p align="right">(<a href="#readme-top">Ir al inicio</a>)</p>
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">Ir al inicio</a>)</p>
-
-
-
 
 
